@@ -1,2 +1,2 @@
 # HITMANmap
-HITMANmap.de
+https://HITMANmap.de
