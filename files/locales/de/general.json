@@ -1,0 +1,72 @@
+{
+  "maps":{
+    "paris":"Paris"
+  },
+  "home":{
+    "tagline":"Inoffizielle interaktiven HITMAN Karte <br>(derzeit in Entwicklung)",
+    "resultsFound":"Ergebnis(se) gefunden.",
+    "searchPlaceholder":"Geben Sie Suchbegriffe ein..."
+  },
+  "notes":{
+    "label":"Bezeichnung:",
+    "title":"Titel:",
+    "note":"Notiz:",
+    "enterLabel":"Kartenbezeichnung eingeben...",
+    "enterTitle":"Geben Sie den Titel der Notiz ein...",
+    "enterText":"Geben Sie den Notiztext ein...",
+    "saveNote":"Notiz speichern",
+    "deleteNote":"Notiz löschen"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Zurück zur Kartenauswahlseite",
+    "challenge":"Entdeckung",
+    "achievement":"Erfolge",
+    "weapons":"Waffen",
+    "kleidung":"Verkleidung",
+    "item":"Zubehör",
+    "feats":"Meisterleistung",
+    "assassination":"Attentat"
+  },
+  "discovery":{
+    "label":" (Entdeckung)"
+  },
+  "achievement":{
+    "label":" (Erfolg)"
+  },
+  "coins":{
+    "label":" Münzen",
+    "desc":""
+  },
+  "assassination":{
+    "label":" (Attentat)"
+  },
+  "feat":{
+    "label":" (Meisterleistung)"
+  },
+  "controls":{
+    "show":"Alle anzeigen",
+    "hide":"Alle ausblenden",
+    "showCounts":"Zähler anzeigen",
+    "hideCounts":"Zähler ausblenden",
+    "resetInvisible":"Ausgeblendetes zurücksetzen",
+    "resetInvisConfirm":"Dies wird alle ausgeblendete\/verfolgte Marker auf ihren Standardzustand (sichtbar) zurücksetzen, sind Sie sicher?",
+    "helpFeatures":"Funktionen & Hilfe",
+    "credits":"Credits",
+    "backupSave":"Dies wird eine Sicherungskopie aller HITMAN Map Karteneinstellungen herunterladen.\nDie Datei wird gespeichert als: __fileName__ \nBist du sicher?",
+    "backupLoad":"Einstellungen wiederherstellen:",
+    "backupLoadFail":"Wiederherstellung fehlgeschlagen, überprüfe die Datei",
+    "backupLoadSuccess":"Wiederherstellung abgeschlossen!",
+    "backupHtmlFail":"Tut mir Leid.  Wiederherstellung ist nicht möglich.  Dieser Browser unterstützt kein HTML5-File-APIs."
+  },
+  "credits":{
+    "botCreated":"Erstellt von __lordfiSh__, lizensiert unter __license__",
+    "botHelp":"Mit Hilfe von __mcarver__ & anderen __contributors__. Für die vollständige Liste der verwendeten Javascript-Bibliotheken, __jsCredits__.",
+    "botAssets":"HITMAN Logo, Symbole, Karte &amp; Text sind Eigentum von __cdpr__"
+  },
+  "misc":{
+    "contribute":"In Arbeit! Hilfe erwünscht unter __link__",
+    "discuss":"Fragen? Verbesserungen? Hier diskutieren: __link__",
+    "helpTranslate":"Helfen sie bei der Übersetzung?",
+    "portraitWarn":"Die Karte lässt sich am besten im Landscape Modus betrachten"
+  }
+}
