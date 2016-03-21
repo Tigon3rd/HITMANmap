@@ -108,18 +108,18 @@ $(document).on("loadShared", function () {
 		iconUrl  : '../files/img/icons/weapons.png',
 		iconSize : [32, 48]
 	});
-	icons.achievement = L.icon({
-		iconUrl  : '../files/img/icons/achievement.png',
+	icons.achievements = L.icon({
+		iconUrl  : '../files/img/icons/achievements.png',
 		iconSize : [32, 48]
 	});
 
-	icons.kleidung = L.icon({
-		iconUrl  : '../files/img/icons/kleidung.png',
+	icons.disguises = L.icon({
+		iconUrl  : '../files/img/icons/disguises.png',
 		iconSize : [32, 48]
 	});
 
-	icons.challenge = L.icon({
-		iconUrl  : '../files/img/icons/challenge.png',
+	icons.challenges = L.icon({
+		iconUrl  : '../files/img/icons/challenges.png',
 		iconSize : [32, 48]
 	});
 
@@ -133,8 +133,8 @@ $(document).on("loadShared", function () {
 		iconSize : [32, 48]
 	});
 
-	icons.assassination = L.icon({
-		iconUrl  : '../files/img/icons/assassination.png',
+	icons.assassinations = L.icon({
+		iconUrl  : '../files/img/icons/assassinations.png',
 		iconSize : [32, 48]
 	});
 

@@ -578,13 +578,13 @@ div#popup-wrap img#popup-close {
 		cursor: pointer;
 	}
 }
-i.achievement { background-image:url('../img/icons/achievement2.png'); }
+i.achievements { background-image:url('../img/icons/achievements2.png'); }
 i.weapons { background-image:url('../img/icons/weapons2.png'); }
-i.kleidung { background-image:url('../img/icons/kleidung2.png'); }
+i.disguises { background-image:url('../img/icons/disguises2.png'); }
 i.item { background-image:url('../img/icons/item2.png'); }
 i.feats { background-image:url('../img/icons/feats2.png'); }
-i.assassination { background-image:url('../img/icons/assassination2.png'); }
-i.challenge { background-image:url('../img/icons/challenge2.png'); }
+i.assassinations { background-image:url('../img/icons/assassinations2.png'); }
+i.challenges { background-image:url('../img/icons/challenges2.png'); }
 
 
 .leaflet-container {
