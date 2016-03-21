@@ -19,25 +19,25 @@
   },
   "sidebar":{
     "returnToMapSelection":"Zurück zur Kartenauswahlseite",
-    "challenge":"Entdeckung",
-    "achievement":"Erfolge",
+    "challenges":"Entdeckung",
+    "achievements":"Erfolge",
     "weapons":"Waffen",
-    "kleidung":"Verkleidung",
+    "disguises":"Verkleidung",
     "item":"Zubehör",
     "feats":"Meisterleistung",
-    "assassination":"Attentat"
+    "assassinations":"Attentat"
   },
   "discovery":{
     "label":" (Entdeckung)"
   },
-  "achievement":{
+  "achievements":{
     "label":" (Erfolg)"
   },
   "coins":{
     "label":" Münzen",
     "desc":""
   },
-  "assassination":{
+  "assassinations":{
     "label":" (Attentat)"
   },
   "feat":{

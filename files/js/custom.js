@@ -437,8 +437,8 @@ $(document).on("loadCustom", function() {
 		popup('Credits', [
 			//'<h3></h3>',
 			'<p>HITMAN Map creacted by lordfiSh with the help from:</p>',
-			'<ul><li><a href="http://www.hitmanforum.com/users/tigon_3rd/activity%20Tigon_3rd" target="_blank">Tigon_3rd</a> (Map Markers) </li></ul>',
-			'<p>HITMAN logo, icons, map &amp; text are the property of <a href="http://www.ioi.dk/" target="_blank">IO Interactive</a> and used without there permission.</p><p> Map based on the Code from the Witcher3Map, Created by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
+			'<ul><li><a href="https://github.com/Tigon3rd" target="_blank">Tigon_3rd</a> (Map Markers & Web Development) </li></ul>',
+			'<p>HITMAN logo, icons, map &amp; text are the property of <a href="http://www.ioi.dk/" target="_blank">IO Interactive</a> and used without their permission.</p><p> Map based on the Code from the Witcher3Map, Created by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
 			'<ul>',
 '<li><a href="https://github.com/mcarver" target="_blank">mcarver</a> (lead contributor) - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc</li>',
 				'<li><a href="https://github.com/ankri" target="_blank">ankri</a> - Ability to hide markers on right or double click</li>',

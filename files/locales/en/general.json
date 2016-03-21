@@ -1,8 +1,8 @@
 {
    "maps":{
       "paris":"Paris",
-      "Sapienza":"Sapienza",
-      "Marrakesh":"Marrakesh"
+      "sapienza":"Sapienza",
+      "marrakesh":"Marrakesh"
    },
    "home":{
       "tagline":"Unofficial HITMAN Interactive Map <br>(Currently under development)",
@@ -21,25 +21,25 @@
    },
    "sidebar":{
       "returnToMapSelection":"Return to Map Selection Page",
-      "challenge":"Discovery",
-      "achievement":"Achievement",
+      "challenges":"Discovery",
+      "achievements":"Achievements",
       "weapons":"Weapons",
-      "kleidung":"Disguise",
-      "item":"Item",
+      "disguises":"Disguises",
+      "item":"Items",
       "feats":"Feats",
-      "assassination":"Assassination"
+      "assassinations":"Assassinations"
     },
    "discovery":{
       "label":" (Discovery)"
    },
-   "achievement":{
+   "achievements":{
       "label":" (Achievement)"
    },
    "coins":{
       "label":" Coins",
       "desc":""
    },
-   "assassination":{
+   "assassinations":{
       "label":" (Assassination)"
    },
    "feat":{

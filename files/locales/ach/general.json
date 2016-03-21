@@ -19,25 +19,25 @@
   },
   "sidebar":{
     "returnToMapSelection":"crwdns3359:0crwdne3359:0",
-    "challenge":"crwdns3360:0crwdne3360:0",
-    "achievement":"crwdns3361:0crwdne3361:0",
+    "challenges":"crwdns3360:0crwdne3360:0",
+    "achievements":"crwdns3361:0crwdne3361:0",
     "weapons":"crwdns3362:0crwdne3362:0",
-    "kleidung":"crwdns3363:0crwdne3363:0",
+    "disguises":"crwdns3363:0crwdne3363:0",
     "item":"crwdns3364:0crwdne3364:0",
     "feats":"crwdns3365:0crwdne3365:0",
-    "assassination":"crwdns3366:0crwdne3366:0"
+    "assassinations":"crwdns3366:0crwdne3366:0"
   },
   "discovery":{
     "label":"crwdns3367:0crwdne3367:0"
   },
-  "achievement":{
+  "achievements":{
     "label":"crwdns3368:0crwdne3368:0"
   },
   "coins":{
     "label":"crwdns3369:0crwdne3369:0",
     "desc":"crwdns3370:0crwdne3370:0"
   },
-  "assassination":{
+  "assassinations":{
     "label":"crwdns3371:0crwdne3371:0"
   },
   "feat":{

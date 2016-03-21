@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Paris - HITMAN interactive map with all collectibles</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="description" content="Paris, multilanguage interactive Map for HITMAN with all Challenges, Missions, Documents, Relics, Survival Caches, Coin Caches, Strongboxes, Murals, Explorer Satchels, Monoliths, Crypt Entrance, Achievement Guides and you can track your progress">
-	<meta name="keywords" content="Paris, HITMAN Map, multilanguage, interactive Map, Challenges, Missions, Documents, Relics, Survival Caches, Coin Caches, Strongboxes, Murals, Explorer Satchels, Monoliths, Crypt Entrance, Achievement Guides, Progresstracker">
+	<meta name="description" content="Paris, multilanguage interactive Map for HITMAN with all Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items, Interactables, Achievements Guides and you can track your progress">
+	<meta name="keywords" content="Paris, HITMAN Map, multilanguage, interactive Map, Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items, Interactables, Achievements Guides, Progresstracker">
 	<link type="text/css" rel="stylesheet" href="../files/js/leaflet/leaflet.css">
 	<link type="text/css" rel="stylesheet" href="../files/css/main.css">
 	<link type="text/css" rel="stylesheet" href="../files/css/font-awesome.min.css">
@@ -19,7 +19,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://hitmanmap.de">
 	<meta property="og:image" content="https://hitmanmap.de/files/img/preview.jpg">
-	<meta property="og:description" content="multilanguage interactive Map for HITMAN with all Challenges, Missions, Documents, Relics, Survival Caches, Coin Caches, Strongboxes, Murals, Explorer Satchels, Monoliths, Crypt Entrance, Achievement Guides and you can track your progress">
+	<meta property="og:description" content="multilanguage interactive Map for HITMAN with all Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items, Interactables, Achievements Guides and you can track your progress">
 
 	<!-- Facebook -->
 	<!-- todo<meta property="fb:app_id" content="1493878937583895">-->
@@ -28,7 +28,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@lifeblogv3">
 	<meta name="twitter:title" content="HITMAN Interactive Map">
-	<meta name="twitter:description" content="interactive Map for HITMAN with all collectibles including Explorer Satchels, Archivist Maps, Monoliths and Achievements">
+	<meta name="twitter:description" content="interactive Map for HITMAN with all collectibles including Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items and Achievements">
 	<meta name="twitter:image" content="https://hitmanmap.de/files/img/preview.jpg">
 
 	<!-- Android/Chrome, Windows und iOS -->
@@ -75,13 +75,13 @@
 				</div>-->
 
 				<ul class="key">
-						<li><i class="achievement"></i><div data-i18n="sidebar.achievement">achievement</div></li>
+						<li><i class="achievements"></i><div data-i18n="sidebar.achievements">achievements</div></li>
 						<li><i class="weapons"></i><div data-i18n="sidebar.weapons">weapons</div></li>
-						<li><i class="kleidung"></i><div data-i18n="sidebar.kleidung">kleidung</div></li>
+						<li><i class="disguises"></i><div data-i18n="sidebar.disguises">disguises</div></li>
 						<li><i class="item"></i><div data-i18n="sidebar.item">item</div></li>
 						<li><i class="feats"></i><div data-i18n="sidebar.feats"><font color="#fe6a00">feats</font></div></li>
-						<li><i class="assassination"></i><div data-i18n="sidebar.assassination">assassination</div></li>
-						<li><i class="challenge"></i><div data-i18n="sidebar.challenge">challenge</div></li>
+						<li><i class="assassinations"></i><div data-i18n="sidebar.assassinations">assassinations</div></li>
+						<li><i class="challenges"></i><div data-i18n="sidebar.challenges">challenges</div></li>
 						<li></li>
 					</ul>
 
@@ -145,8 +145,8 @@
 <div id="lang">
 					<a href="" onclick="changeLang('de')" title="Deutsch"><img src="../files/img/flags/de.png"></a>
 					<a href="" onclick="changeLang('en')" title="English"><img src="../files/img/flags/en.png"></a>
-					<!--<a href="" onclick="changeLang('fr')" title="Frensh"><img src="../files/img/flags/fr.png"></a>
-					<a href="" onclick="changeLang('ru')" title="Russian"><img src="../files/img/flags/ru.png"></a>-->
+					<!--<a href="" onclick="changeLang('fr')" title="Français"><img src="../files/img/flags/fr.png"></a>
+					<a href="" onclick="changeLang('ru')" title="русским"><img src="../files/img/flags/ru.png"></a>-->
 				</div>
 				<br><center>
 
@@ -182,12 +182,12 @@
 
 	  $('.rrssb-buttons').rrssb({
 		// required:
-		title: 'checkout this awesome Tomb Raider Map: ',
+		title: 'checkout this awesome HITMAN Map: ',
 		url: 'https://hitmanmap.de',
 
 		// optional:
-		description: 'multilanguage interactive Map for HITMAN with all Challenges, Missions, Documents, Relics, Survival Caches, Coin Caches, Strongboxes, Murals, Explorer Satchels, Monoliths, Crypt Entrance, Achievement Guides and you can track your progress',
-		emailBody: 'multilanguage interactive Map for HITMAN with all Challenges, Missions, Documents, Relics, Survival Caches, Coin Caches, Strongboxes, Murals, Explorer Satchels, Monoliths, Crypt Entrance, Achievement Guides and you can track your progress'
+		description: 'multilanguage interactive Map for HITMAN with all Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items, Interactables, Achievements Guides and you can track your progress',
+		emailBody: 'multilanguage interactive Map for HITMAN with all Challenges, Missions, Feats, Assassinations, Weapons, Disguises, Items, Interactables, Achievements Guides and you can track your progress'
 	  });
 	});
 	</script>
