@@ -8,11 +8,11 @@ $(document).on("loadMapdata", function () {
 	processData({
 
 	weapons: [{
-	    coords: [[-51.028,-70.005],[-61.898,-61.1285]],
+	    coords: [[-50.986, -70.444], [-61.752, -61.216], [-63.234, -101.602]],
 	    label: $.t("a:weapons.label.battleaxe"),
 	    popup: $.t("a:weapons.desc.battleaxe")
 	},{
-		coords: [[-63.549,-60.908],[-30.902,-54.053],[-81.518,-104.941],[-81.275,-90.923],[-77.206,-150.381],[-65.713,-81.079]],
+	    coords: [[-63.714, -60.688], [-30.902, -54.053], [-81.518, -104.941], [-81.275, -90.923], [-77.206, -150.381], [-65.713, -81.079]],
 		label: $.t("a:weapons.label.crowbar"),
 		popup: $.t("a:weapons.desc.crowbar")
 	},{
@@ -24,7 +24,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.gulfClub"),
 		popup: $.t("a:weapons.desc.gulfClub")
 	},{
-		coords: [[-64.511,-70.532]],
+	    coords: [[-64.896, -69.543], [-64.896, -69.043], [-63.234, -102.634], [-63.234, -102.688]],
 		label: $.t("a:weapons.label.sword"),
 		popup: $.t("a:weapons.desc.sword")
 	},{
@@ -32,23 +32,23 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.firePoker"),
 		popup: $.t("a:weapons.desc.firePoker")
 	},{
-		coords: [[-17.120,-94.219],[-33.138,-56.909],[-82.743,-86.045],[-82.875,-123.047],[-74.044,-71.060],[-70.081,-92.505],[-69.411,-124.937],[-70.671,-108.105],[-63.685,-152.227]],
+	    coords: [[-17.120, -94.219], [-33.138, -56.909], [-82.743, -86.045], [-82.875, -123.047], [-74.044, -71.060], [-70.081, -92.505], [-69.411, -124.937], [-70.671, -108.105], [-63.685, -152.227], [-62.217, -81.892]],
 		label: $.t("a:weapons.label.wrench"),
 		popup: $.t("a:weapons.desc.wrench")
 	},{
-		coords: [[-31.429,-111.270],[-67.136,-63.545],[-69.885,-80.859],[-68.657,-92.681],[-73.503,-96.724],[-67.136,-148.887],[-69.427,-123.882]],
+	    coords: [[-31.429, -111.270], [-67.136, -63.545], [-69.885, -80.859], [-68.657, -92.681], [-73.503, -96.724], [-67.136, -148.887], [-69.427, -123.882], [-61.270, -115.027], [-56.292, -110.764], [-53.410, -63.325]],
 		label: $.t("a:weapons.label.screwdriver"),
 		popup: $.t("a:weapons.desc.screwdriver")
 	},{
-		coords: [[-44.528,-138.779],[-73.886,-99.536]],
+	    coords: [[-44.528, -138.779], [-73.886, -99.536], [-61.980, -111.995]],
 		label: $.t("a:weapons.label.hammer"),
 		popup: $.t("a:weapons.desc.hammer")
 	},{
-	    coords: [[-82.443,-85.078],[-83.293,-108.193],[-83.048,-117.993],[-79.695,-112.544],[-81.979,-101.470],[-43.676,-147.788]],
+	    coords: [[-82.443, -85.078], [-83.293, -108.193], [-83.048, -117.993], [-79.695, -112.544], [-81.979, -101.470], [-43.676, -147.788], [-64.245, -121.179], [-60.748, -118.323], [-52.935, -112.632]],
 		label: $.t("a:weapons.label.fireExtinguisher"),
 		popup: $.t("a:weapons.desc.fireExtinguisher")
 	},{
-		coords: [[-80.364,-85.869],[-84.315,-112.720],[-69.006,-125.464],[-82.160,-89.429]],
+	    coords: [[-80.364, -85.869], [-84.315, -112.720], [-69.006, -125.464], [-82.160, -89.429], [-62.104, -92.461], [-54.406, -111.687]],
 		label: $.t("a:weapons.label.fireAxe"),
 		popup: $.t("a:weapons.desc.fireAxe")
 	},{
@@ -56,7 +56,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.brick"),
 		popup: $.t("a:weapons.desc.brick")
 	},{
-		coords: [[-82.704,-95.933],[-83.677,-121.729],[-70.215,-115.532]],
+	    coords: [[-82.704, -95.933], [-83.677, -121.729], [-70.215, -115.532], [-52.429, -115.598], [-51.481, -116.104], [-51.289, -114.434], [-48.531, -109.995]],
 		label: $.t("a:weapons.label.kitchenKnife"),
 		popup: $.t("a:weapons.desc.kitchenKnife")
 	},{
@@ -68,7 +68,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.bartoli75R"),
 		popup: $.t("a:weapons.desc.bartoli75R")
 	},{
-		coords: [[-83.725,-89.648]],
+	    coords: [[-83.725, -89.648], [-62.431, -100.833], [-64.671, -99.844], [-64.830, -106.172], [-54.648, -81.387]],
 		label: $.t("a:weapons.label.scissors"),
 		popup: $.t("a:weapons.desc.scissors")
 	},{
@@ -80,7 +80,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.hatchet"),
 		popup: $.t("a:weapons.desc.hatchet")
 	},{
-	    coords: [[-32.101,-56.997],[-54.137,-35.200],[-82.172,-104.502]],
+	    coords: [[-32.101, -56.997], [-54.137, -35.200], [-82.172, -104.502], [-53.969, -82.727]],
 	    label: $.t("a:weapons.label.leadPipe"),
 	    popup: $.t("a:weapons.desc.leadPipe")
 	},{
@@ -91,19 +91,19 @@ $(document).on("loadMapdata", function () {
 
 
 	item: [{
-	    coords: [[-52.510, -66.401], [-18.146, -65.830], [38.617, -91.582], [-64.671, -114.368]],
+	    coords: [[-51.536, -65.347], [-18.146, -65.830], [38.617, -91.582], [-64.671, -114.368]],
 	    label: $.t("coins.label"),
 	    popup: $.t("coins.desc")
 	},{
-		coords: [[-46.920,-64.907]],
+	    coords: [[-45.768, -65.347]],
 		label: $.t("a:item.label.lens"),
 		popup: $.t("a:item.desc.lens")
 	},{
-		coords: [[-39.640,-71.367]],
+	    coords: [[-39.351, -72.510]],
 		label: $.t("a:item.label.vipList"),
 		popup: $.t("a:item.desc.vipList")
 	},{
-	    coords: [[-70.444,-126.365], [-48.254,-114.653], [-48.254,-113.653], [-82.166,-107.336]],
+	    coords: [[-70.444, -126.365], [-48.517, -113.467], [-48.517, -113.707], [-82.121, -107.490], [-70.743, -100.635]],
 	    label: $.t("a:item.label.ratPoison"),
 	    popup: $.t("a:item.desc.ratPoison")
 	},{
@@ -115,15 +115,15 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:item.label.boatKey"),
 		popup: $.t("a:item.desc.boatKey")
 	},{
-		coords: [[-82.506,-105.227]],
+	    coords: [[-82.426, -105.249]],
 		label: $.t("a:item.label.masterKey"),
 		popup: $.t("a:item.desc.masterKey")
 	},{
-		coords: [[-82.367,-123.420]],
+	    coords: [[-82.521, -123.135]],
 		label: $.t("a:item.label.bareKnuckle"),
 		popup: $.t("a:item.desc.bareKnuckle")
 	},{
-		coords: [[-51.536,-83.870]],
+	    coords: [[-51.221, -83.694]],
 		label: $.t("a:item.label.iagoInvite"),
 		popup: $.t("a:item.desc.iagoInvite") + $.t(' <a href="https://hitmanmap.de/a/#5/-55.304/-107.512/w=-61.898,-61.128&m=-47.813,-119.927">[here]</a> ') +$.t("a:item.desc.iagoInvite-2"),
 	},{
@@ -151,7 +151,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:item.label.fireworksSchedule"),
 		popup: $.t("a:item.desc.fireworksSchedule")
 	},{
-		coords: [[-34.053,-57.744],[-82.687,-104.019],[-45.213,-137.725]],
+	    coords: [[-34.053, -57.744], [-82.687, -104.019], [-45.213, -137.725], [-48.415, -116.499]],
 		label: $.t("a:item.label.explosiveFlasks"),
 		popup: $.t("a:item.desc.explosiveFlasks")
 	}],
@@ -486,7 +486,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:disguises.label.palaceStaff"),
 		popup: $.t("a:disguises.desc.palaceStaff")
 	},{
-	    coords: [[-62.855,-106.040],[-69.779,-101.030]],
+	    coords: [[-62.855, -107.490], [-69.779, -101.030]],
 		label: $.t("a:disguises.label.stylist"),
 		popup: $.t("a:disguises.desc.stylist")
 	}]
