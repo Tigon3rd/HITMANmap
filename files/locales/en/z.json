@@ -1,0 +1,111 @@
+{
+   "weapons":{
+    "label": {
+      "bartoli12G": "Shotgun (Bartoli 12G)",
+      "bartoli75R": "Pistol (Bartoli 75R)",
+      "battleaxe": "Battleaxe",
+      "brick": "Brick",
+      "bust": "Bust",
+      "cleaver": "Cleaver",
+      "crowbar": "Crowbar",
+      "fireAxe": "Fire Axe",
+      "fireExtinguisher": "Fire Extinguisher",
+      "firePoker": "Fire Poker",
+      "gulfClub": "Golf Club",
+      "hammer": "Hammer",
+      "hatchet": "Hatchet",
+      "kitchenKnife": "Kitchen Knife",
+      "leadPipe": "Lead Pipe",
+      "letterOpener": "Letter Opener",
+      "policeBaton": "Police Baton",
+      "scissors": "Scissors",
+      "screwdriver": "Screwdriver",
+      "sword": "Sword",
+      "wrench": "Wrench"
+    },
+    "desc": {
+      "bartoli12G": "Not-Concealable, Lethal Ranged",
+      "bartoli75R": "Concealable, Lethal Ranged",
+      "battleaxe": "Not-Concealable, Lethal Melee, Throwable",
+      "brick": "Concealable, Non-Lethal Melee, Throwable (Breaks)",
+      "bust": "Concealable, Non-Lethal Melee, Throwable (Breaks)",
+      "cleaver": "Concealable, Lethal Melee, Throwable",
+      "crowbar": "Concealable, Non-Lethal Melee, Throwable, Used with various Interactables",
+      "fireAxe": "Not-Concealable, Lethal Melee, Throwable",
+      "fireExtinguisher": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "firePoker": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "gulfClub": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "hammer": "Concealable, Non-Lethal Melee, Throwable",
+      "hatchet": "Not-Concealable, Lethal Melee, Throwable",
+      "kitchenKnife": "Concealable, Lethal Melee, Throwable",
+      "leadPipe": "Concealable, Non-Lethal Melee, Throwable",
+      "letterOpener": "Concealable, Lethal Melee, Throwable",
+      "policeBaton": "Concealable, Non-Lethal Melee, Throwable",
+      "scissors": "Concealable, Lethal Melee, Throwable",
+      "screwdriver": "Concealable, Lethal Melee, Throwable, Used with various Interactables",
+      "sword": "Not-Concealable, Lethal Melee, Throwable",
+      "wrench": "Concealable, Non-Lethal Melee, Throwable, Used with various Interactables"
+    }
+   },
+   "item":{
+    "label": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    }
+   },
+   "feats":{
+    "label": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    }
+   },
+   "challenges":{
+    "label": {
+      "delivery": "Special Delivery",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "delivery": "Disguise yourself as a delivery man",
+      "delivery2": "XXX",
+      "XXX": "XXX"
+    }
+   },
+   "achievements":{
+      "label":{
+         "reaper":"Meeting the Reaper (Achievement)",
+         "showstopper":"The Showstopper (Achievement)"
+      },
+      "desc":{
+         "reaper":"Became Tobias Reaper. (Secret)",
+         "showstopper":"Assassinated Viktor Novikov in a light rig accident. (Secret)"
+      }
+   },
+   "assassinations":{
+    "label": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    }
+   },
+   "disguises":{
+    "label": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "XXX": "XXX",
+      "XXX": "XXX"
+    }
+   }
+}
