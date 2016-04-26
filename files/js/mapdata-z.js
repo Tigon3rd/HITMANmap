@@ -3,7 +3,7 @@ $(document).on("loadMapdata", function () {
 	window.map_sWest  = L.latLng(-100, -200);
 	window.map_nEast  = L.latLng(500, 200);
 	window.map_center = [-70,-20];
-	window.map_mZoom  = 6;
+	window.map_mZoom  = 7;
 
 	processData({
 
