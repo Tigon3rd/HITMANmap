@@ -51,13 +51,23 @@
    "item":{
     "label": {
       "letter": "Romantic Note",
-      "golfball": "XXX",
+      "golfball": "Explosive Golf Ball",
+      "menkeycard": "Mansion Keycard",
+      "ratpos": "Emetic Rat Poision",
+      "safekobi":"Safe Combination",
+        "dna":"DNA sample",
+        "toytank":"Toy Tank",
       "XXX": "XXX"
 
     },
     "desc": {
       "letter": "XXX",
       "golfball": "needed fort the Tee Time Assassination Challenge",
+      "menkeycard": "XXX",
+      "ratpos": "XXX",
+      "safekobi":"needed for the Safe in Level 7 (and the Crack me Up Challenge)",
+      "dna":"XXX",
+      "toytank":"XXX",
       "XXX": "XXX"
     }
    },
@@ -77,6 +87,8 @@
       "forehire": "Start in the ICA Safe House",
       "safehouse": "Find the ICA Safe House in Sapienza",
       "memory": "Disguise yourself as a plague doctor",
+      "dr": "Therapist 47",
+      "crack":"You Crack me Up",
       "XXX": "XXX"
     },
     "desc": {
@@ -85,6 +97,11 @@
       "forehire": "Unlocked with Mastery Level 2",
       "safehouse": "XXX",
       "memory": "XXX",
+        "dr": "Disguise yourself as Dr. Oscar Lafayette",
+        "dr2": "follow the Catharsis Opputrunity",
+          "crack":"Open Silvio Carusos Safe, Find the DNA Sample",
+            "crack2":"get the Safe Combination from Level 6 (use the Searchoption in the right sidebar) and use it with the safe",
+
       "XXX": "XXX"
     }
    },
@@ -118,15 +135,21 @@
     "label": {
       "cyclist": "Cyclist",
       "Priest": "Priest",
+      "waiter":"Waiter",
       "doc": "Plague Doctor",
       "outfit": "Outfit",
       "needed": "(needed for the xxx feast)",
+      "kitchen":"Kitchen Assistant",
+      "dr": "Dr. Oscar Lafayette",
       "XXX": "XXX"
     },
     "desc": {
       "cyclist": "no pickup",
       "Priest": "no pickup",
       "doc": "pickup",
+      "waiter":"no pickup",
+      "dr":"no pickup",
+      "kitchen":"pickup",
       "XXX": "XXX"
     }
    }

@@ -22,8 +22,27 @@ $(document).on("loadMapdata", function () {
 		coords: [[-78.431,-140.592]],
 		label: $.t("z:item.label.golfball"),
 		popup: $.t("z:item.desc.golfball")
+	},{
+		coords: [[-78.923,-82.079]],
+		label: $.t("z:item.label.menkeycard"),
+		popup: $.t("z:item.desc.menkeycard")
+	},{
+		coords: [[-79.515,-130.573]],
+		label: $.t("z:item.label.ratpos"),
+		popup: $.t("z:item.desc.ratpos")
+	},{
+		coords: [[-79.740,-32.596]],
+		label: $.t("z:item.label.safekobi"),
+		popup: $.t("z:item.desc.safekobi")
+	},{
+		coords: [[-80.307,30.476]],
+		label: $.t("z:item.label.dna"),
+		popup: $.t("z:item.desc.dna")
+	},{
+		coords: [[-80.403,27.729]],
+		label: $.t("z:item.label.toytank"),
+		popup: $.t("z:item.desc.toytank")
 	}],
-
 
   feats: [],
 
@@ -53,13 +72,23 @@ assassinations: [{
 		popupTitle: $.t("z:achievements.label.Kraken2"), //title
 		popup: $.t("z:achievements.desc.Kraken") + $.t(' <a target="_blank" href="https://www.youtube.com/watch?v=NGLNc3Tq15I">[Video]</a> ')
 	},{
-		coords: [[-79.537,-175.979]],
+		coords: [[-78.460,-141.427]],
 		label: $.t("z:challenges.label.safehouse") +$.t("discovery.label"),
 		popup: $.t("z:challenges.desc.safehouse")
 	},{
-		coords: [[-79.537,-175.979]],
+		coords: [[-79.347,-160.027]],
 		label: $.t("z:challenges.label.memory") +$.t("discovery.label"),
 		popup: $.t("z:challenges.desc.memory")
+	},{
+		coords: [[-64.225,46.296]],
+		label: $.t("z:challenges.desc.dr") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.dr") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.dr2")
+	},{
+		coords: [[-80.375,30.498]],
+		label: $.t("z:challenges.desc.crack") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.crack") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.crack2")
 	}],
 
 
@@ -85,14 +114,28 @@ assassinations: [{
 		label: $.t("z:disguises.label.outfit"),
 		popupTitle: $.t("z:disguises.label.doc") + $.t(" ") + $.t("z:disguises.label.outfit"),
 		popup: $.t("z:disguises.desc.doc") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-78.838,-83.079]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.kitchen") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.kitchen") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-80.259,-130.583]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.waiter") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.waiter") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-80.244,-131.814]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.dr") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.dr") + $.t(" ") + $.t("z:disguises.label.needed"),
 	}]
 
+
 //	Shop Keeper - Pick a shop
-//	Delivery Man - In the flower shop (un-worn uniform) or by accident
 //	Bohemian Man - Top of tower in city Square
 //	Street Performer - By the docks
 //	Private Investigator - Sleeping on a bench in one of the back alleys, can be recognized by the white dot always above his head
-//	Dr. Shrink*Not actual name* - City square
 //	Red Plumber - Sewers
 //
 //	Butler - Mansion Entrance
@@ -102,8 +145,6 @@ assassinations: [{
 //	Mansion Security - Mansion, and near ICA Hideout there is a uniform hidden in another apartment
 //	Bodyguard - Mansion/Streets
 //	Mansion Chef - Mansion
-//	Kitchen Staff - Mansion/Apt next to ICA Hideout
-//	Plague Doc - Observatory
 //
 //	Lab Security - In/around the lab
 //	Lab Technician - In/around the lab, in the morgue
