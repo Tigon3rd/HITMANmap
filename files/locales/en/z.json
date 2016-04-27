@@ -21,6 +21,7 @@
       "scissors": "Scissors",
       "screwdriver": "Screwdriver",
       "sword": "Sword",
+      "circum": "Cicumcision Knife",
       "wrench": "Wrench"
     },
     "desc": {
@@ -49,11 +50,14 @@
    },
    "item":{
     "label": {
-      "XXX": "XXX",
+      "letter": "Romantic Note",
+      "golfball": "XXX",
       "XXX": "XXX"
+
     },
     "desc": {
-      "XXX": "XXX",
+      "letter": "XXX",
+      "golfball": "needed fort the Tee Time Assassination Challenge",
       "XXX": "XXX"
     }
    },
@@ -70,41 +74,59 @@
    "challenges":{
     "label": {
       "delivery": "Special Delivery",
+      "forehire": "Start in the ICA Safe House",
+      "safehouse": "Find the ICA Safe House in Sapienza",
+      "memory": "Disguise yourself as a plague doctor",
       "XXX": "XXX"
     },
     "desc": {
       "delivery": "Disguise yourself as a delivery man",
       "delivery2": "XXX",
+      "forehire": "Unlocked with Mastery Level 2",
+      "safehouse": "XXX",
+      "memory": "XXX",
       "XXX": "XXX"
     }
    },
    "achievements":{
       "label":{
-         "reaper":"Meeting the Reaper (Achievement)",
-         "showstopper":"The Showstopper (Achievement)"
+         "Kraken":"Let No Joyful Voice be Heard (Achievement)",
+         "Kraken2":"Awakened the Kraken! (Secret)",
+         "XXX":"XXX"
       },
       "desc":{
-         "reaper":"Became Tobias Reaper. (Secret)",
-         "showstopper":"Assassinated Viktor Novikov in a light rig accident. (Secret)"
+         "Kraken":"Take the Jaeger-7 Sniper (Paris Mastery Level 5 Unlock) and stash in it the ICA Safehouse (you can also start from there). Sneak near the Shore and shoot the Bells on the Ship the following Order to unlock the Achievement",
+         "XXX":"XXX"
       }
    },
    "assassinations":{
     "label": {
       "XXX": "XXX",
+      "teetime": "Tee Time",
+      "plage": "Plague-iarism",
       "XXX": "XXX"
     },
     "desc": {
       "XXX": "XXX",
+      "teetime": "get the Explosive Golf Ball from the ICA Safehouse (swap it with the Golf Teacher Disguise)",
+      "plage": "Assassinate Silvio Caruso with an amputation knife withe disguised as a plauge doctor",
+      "plage2": "get the amputation knife and the plauge doctor disguises here",
       "XXX": "XXX"
     }
    },
    "disguises":{
     "label": {
-      "XXX": "XXX",
+      "cyclist": "Cyclist",
+      "Priest": "Priest",
+      "doc": "Plague Doctor",
+      "outfit": "Outfit",
+      "needed": "(needed for the xxx feast)",
       "XXX": "XXX"
     },
     "desc": {
-      "XXX": "XXX",
+      "cyclist": "no pickup",
+      "Priest": "no pickup",
+      "doc": "pickup",
       "XXX": "XXX"
     }
    }
