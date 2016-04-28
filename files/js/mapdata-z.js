@@ -15,6 +15,10 @@ $(document).on("loadMapdata", function () {
 		coords: [[-81.270,-21.896]],
 		label: $.t("z:weapons.label.folding"),
 		popup: $.t("z:weapons.desc.ConcealableLethalMeleeThrowable")
+	},{
+		coords: [[-80.583,-32.410]],
+		label: $.t("z:weapons.label.screwdriver"),
+		popup: $.t("z:weapons.desc.ConcealableLethalMeleeThrowable")
 	}],
 
 
@@ -31,7 +35,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("z:item.label.menkeycard"),
 		popup: $.t("z:item.desc.menkeycard")
 	},{
-		coords: [[-79.515,-130.573], [-66.896,22.983]],
+		coords: [[-79.515,-130.573], [-66.896,22.983], [-80.684,-32.366]],
 		label: $.t("z:item.label.ratpos"),
 		popup: $.t("z:item.desc.ratpos")
 	},{
@@ -159,6 +163,11 @@ assassinations: [{
 		coords: [[-69.014,-173.584]],
 		label: $.t("z:challenges.desc.boat") +$.t("discovery.label"),
 		popup: $.t("z:challenges.desc.boat")
+	},{
+		coords: [[-80.942,-31.454]],
+		label: $.t("z:challenges.desc.momento") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.momento") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.momento2")
 	}],
 
 

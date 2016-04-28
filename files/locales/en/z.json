@@ -103,6 +103,7 @@
       "blend":"Blending In",
       "lemon":"Leomon Picking",
       "boat":"Abandon Ship",
+      "momento":"Momento",
       "XXX": "XXX"
     },
     "desc": {
@@ -119,6 +120,8 @@
             "blend2":"Starting Location unlocked at Mastery Level XXX",
             "lemon":"Start in the leom garden",
             "lemon2":"Starting Location unlocked at Mastery Level XXX",
+            "momento":"XXX",
+            "momento2":"XXX",
 "boat":"Escape Sapienza in the speedboat",
       "XXX": "XXX"
     }
