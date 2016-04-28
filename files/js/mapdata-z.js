@@ -11,6 +11,10 @@ $(document).on("loadMapdata", function () {
 		coords: [[-79.171,-160.159]],
 		label: $.t("z:weapons.label.circum"),
 		popup: $.t("z:weapons.desc.circum")
+	},{
+		coords: [[-81.270,-21.896]],
+		label: $.t("z:weapons.label.folding"),
+		popup: $.t("z:weapons.desc.ConcealableLethalMeleeThrowable")
 	}],
 
 
@@ -27,7 +31,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("z:item.label.menkeycard"),
 		popup: $.t("z:item.desc.menkeycard")
 	},{
-		coords: [[-79.515,-130.573]],
+		coords: [[-79.515,-130.573], [-66.896,22.983]],
 		label: $.t("z:item.label.ratpos"),
 		popup: $.t("z:item.desc.ratpos")
 	},{
@@ -42,9 +46,31 @@ $(document).on("loadMapdata", function () {
 		coords: [[-80.403,27.729]],
 		label: $.t("z:item.label.toytank"),
 		popup: $.t("z:item.desc.toytank")
+	},{
+		coords: [[-65.206,-146.755]],
+		label: $.t("z:item.label.remoteex"),
+		popup: $.t("z:item.desc.remoteex")
+	},{
+		coords: [[-79.711,-89.989]],
+		label: $.t("z:item.label.medic"),
+		popup: $.t("z:item.desc.medic")
+	},{
+		coords: [[-79.683,-96.010]],
+		label: $.t("z:item.label.masterkey"),
+		popup: $.t("z:item.desc.masterkey")
+	},{
+		coords: [[-50.289,27.004]],
+		label: $.t("z:item.label.dongle"),
+		popup: $.t("z:item.desc.dongle")
 	}],
 
-  feats: [],
+
+  feats: [{
+		coords: [[-75.952,-106.346]],
+		popupTitle: $.t("z:feats.label.fly") +$.t("feat.label"),
+		label: $.t("a:feats.label.fly"),
+		popup: $.t("a:feats.desc.fly") +$.t("a:feats.desc.tracking")
+	}],
 
 assassinations: [{
 	coords: [[-81.210,-158.610]],
@@ -55,6 +81,36 @@ assassinations: [{
 	popupTitle: $.t("z:assassinations.label.plage") +$.t("assassinations.label"),
 	label: $.t("z:assassinations.desc.plage"),
 	popup: $.t("z:assassinations.desc.plage2")
+},{
+	coords: [[-68.816,8.416]],
+	popupTitle: $.t("z:assassinations.label.errorplane") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.errorplane"),
+	popup: $.t("z:assassinations.desc.errorplane2")
+},{
+	coords: [[-39.910,-110]],
+	popupTitle: $.t("z:assassinations.label.silent") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.silent"),
+	popup: $.t("z:assassinations.desc.silent2")+$.t("z:feats.desc.tracking")
+},{
+	coords: [[-39.910,-115]],
+	popupTitle: $.t("z:assassinations.label.silentsuit") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.silentsuit"),
+	popup: $.t("z:assassinations.desc.silentsuit2")+$.t("z:feats.desc.tracking")
+},{
+	coords: [[-39.910,-120]],
+	popupTitle: $.t("z:assassinations.label.suitOnly") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.suitOnly"),
+	popup: $.t("z:assassinations.desc.suitOnly2")+$.t("z:feats.desc.tracking")
+},{
+	coords: [[-39.910,-125]],
+	popupTitle: $.t("z:assassinations.label.sniper") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.sniper"),
+	popup: $.t("z:assassinations.desc.sniper2") +$.t("z:feats.desc.tracking")
+},{
+	coords: [[-39.910,-130]],
+	popupTitle: $.t("z:assassinations.label.noEvidence") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.noEvidence"),
+	popup: $.t("z:assassinations.desc.noEvidence2") +$.t("z:feats.desc.tracking")
 }],
 
 
@@ -89,7 +145,23 @@ assassinations: [{
 		label: $.t("z:challenges.desc.crack") +$.t("discovery.label"),
 		popupTitle: $.t("z:challenges.label.crack") +$.t("discovery.label"),
 		popup: $.t("z:challenges.desc.crack2")
+	},{
+		coords: [[-66.434,18.864]],
+		label: $.t("z:challenges.desc.blend") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.blend") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.blend")
+	},{
+		coords: [[-80.956,-30.234]],
+		label: $.t("z:challenges.desc.lemon") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.lemon") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.lemon")
+	},{
+		coords: [[-69.014,-173.584]],
+		label: $.t("z:challenges.desc.boat") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.boat")
 	}],
+
+
 
 
 	achievements : [{
@@ -129,8 +201,17 @@ assassinations: [{
 		label: $.t("z:disguises.label.outfit"),
 		popupTitle: $.t("z:disguises.label.dr") + $.t(" ") + $.t("z:disguises.label.outfit"),
 		popup: $.t("z:disguises.desc.dr") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-63.534,32.113]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.green") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.green") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-63.229,31.827]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.garden") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.garden") + $.t(" ") + $.t("z:disguises.label.needed"),
 	}]
-
 
 //	Shop Keeper - Pick a shop
 //	Bohemian Man - Top of tower in city Square
@@ -141,7 +222,6 @@ assassinations: [{
 //	Butler - Mansion Entrance
 //	Housekeeping - In Mansion - Uniform in laundry area too
 //	Mansion Staff - In Mansion
-//	Gardener - Outside Mansion, outside church, in one apartment
 //	Mansion Security - Mansion, and near ICA Hideout there is a uniform hidden in another apartment
 //	Bodyguard - Mansion/Streets
 //	Mansion Chef - Mansion
@@ -150,7 +230,6 @@ assassinations: [{
 //	Lab Technician - In/around the lab, in the morgue
 //	Hazmat Suit - In Lab Area
 //	Golf Coach - Mansion Property
-//	Green Plumber - Level 3 of Mansion (Easily accessed via the fountain behind the guards at the front gate)
 //	Waiter - City Square
 //
 });

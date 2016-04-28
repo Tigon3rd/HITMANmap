@@ -22,6 +22,8 @@
       "screwdriver": "Screwdriver",
       "sword": "Sword",
       "circum": "Cicumcision Knife",
+      "folding":"Folding Knife",
+      "remoteex":"Remote Explosive",
       "wrench": "Wrench"
     },
     "desc": {
@@ -38,13 +40,14 @@
       "gulfClub": "Not-Concealable, Non-Lethal Melee, Throwable",
       "hammer": "Concealable, Non-Lethal Melee, Throwable",
       "hatchet": "Not-Concealable, Lethal Melee, Throwable",
-      "kitchenKnife": "Concealable, Lethal Melee, Throwable",
+      "ConcealableLethalMeleeThrowable": "Concealable, Lethal Melee, Throwable",
       "leadPipe": "Concealable, Non-Lethal Melee, Throwable",
       "letterOpener": "Concealable, Lethal Melee, Throwable",
       "policeBaton": "Concealable, Non-Lethal Melee, Throwable",
       "scissors": "Concealable, Lethal Melee, Throwable",
       "screwdriver": "Concealable, Lethal Melee, Throwable, Used with various Interactables",
       "sword": "Not-Concealable, Lethal Melee, Throwable",
+      "remoteex":"XXX",
       "wrench": "Concealable, Non-Lethal Melee, Throwable, Used with various Interactables"
     }
    },
@@ -57,6 +60,8 @@
       "safekobi":"Safe Combination",
         "dna":"DNA sample",
         "toytank":"Toy Tank",
+        "masterkey":"Key (Mansion Masterkey)",
+        "dongle":"Biolap Laptop Dongle",
       "XXX": "XXX"
 
     },
@@ -67,18 +72,24 @@
       "ratpos": "XXX",
       "safekobi":"needed for the Safe in Level 7 (and the Crack me Up Challenge)",
       "dna":"XXX",
+      "masterkey":"XXX",
+      "dongle":"can be picked up from the Female Sienctist. Use it on the Laptop to kill the Virus remotly",
       "toytank":"XXX",
       "XXX": "XXX"
     }
-   },
+  },
    "feats":{
     "label": {
+      "fly": "Fly, Silvio!",
       "XXX": "XXX",
       "XXX": "XXX"
     },
     "desc": {
+      "fly": "Trigger Silvio Carusos evacuation",
+      "fly2": "Trigger a evacuation by shooting near/at him or use the firealarm. If he is inside the Cave/Lab destroy the Virus remotly to get this Feats unlocked",
       "XXX": "XXX",
-      "XXX": "XXX"
+      "XXX": "XXX",
+      "tracking": " (just here for progresstracking)"
     }
    },
    "challenges":{
@@ -89,6 +100,9 @@
       "memory": "Disguise yourself as a plague doctor",
       "dr": "Therapist 47",
       "crack":"You Crack me Up",
+      "blend":"Blending In",
+      "lemon":"Leomon Picking",
+      "boat":"Abandon Ship",
       "XXX": "XXX"
     },
     "desc": {
@@ -101,7 +115,11 @@
         "dr2": "follow the Catharsis Opputrunity",
           "crack":"Open Silvio Carusos Safe, Find the DNA Sample",
             "crack2":"get the Safe Combination from Level 6 (use the Searchoption in the right sidebar) and use it with the safe",
-
+            "blend":"Start in the mansion garden",
+            "blend2":"Starting Location unlocked at Mastery Level XXX",
+            "lemon":"Start in the leom garden",
+            "lemon2":"Starting Location unlocked at Mastery Level XXX",
+"boat":"Escape Sapienza in the speedboat",
       "XXX": "XXX"
     }
    },
@@ -120,14 +138,32 @@
     "label": {
       "XXX": "XXX",
       "teetime": "Tee Time",
+      "silent": "Silent Assassin",
+      "silentsuit": "Silent Assassin, Suit Only",
+        "suitOnly": "Suit Only",
+          "sniper": "Sniper Assassin",
+            "noEvidence": "No Evidence",
       "plage": "Plague-iarism",
+      "errorplane": "Error Plane",
       "XXX": "XXX"
     },
     "desc": {
       "XXX": "XXX",
+      "silent": "XXX",
+      "silent2": "XXX",
+      "silentsuit": "XXX",
+      "silentsuit2": "XXX",
+      "suitOnly": "XXX",
+      "suitOnly2": "XXX",
+      "sniper": "XXX",
+      "sniper2": "XXX",
+      "noEvidence": "XXX",
+      "noEvidence2": "XXX",
       "teetime": "get the Explosive Golf Ball from the ICA Safehouse (swap it with the Golf Teacher Disguise)",
       "plage": "Assassinate Silvio Caruso with an amputation knife withe disguised as a plauge doctor",
       "plage2": "get the amputation knife and the plauge doctor disguises here",
+      "errorplane": "Assassinate Silvio Caruso by shooting down his plane with an antique cannon",
+      "errorplane2": "XXX",
       "XXX": "XXX"
     }
    },
@@ -141,6 +177,8 @@
       "needed": "(needed for the xxx feast)",
       "kitchen":"Kitchen Assistant",
       "dr": "Dr. Oscar Lafayette",
+      "green":"Green Plumber",
+      "garden":"Gardener",
       "XXX": "XXX"
     },
     "desc": {
@@ -149,6 +187,8 @@
       "doc": "pickup",
       "waiter":"no pickup",
       "dr":"no pickup",
+      "garden":"pickup",
+      "green":"no pickup",
       "kitchen":"pickup",
       "XXX": "XXX"
     }
