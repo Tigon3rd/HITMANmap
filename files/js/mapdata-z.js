@@ -115,6 +115,11 @@ assassinations: [{
 	popupTitle: $.t("z:assassinations.label.noEvidence") +$.t("assassinations.label"),
 	label: $.t("z:assassinations.desc.noEvidence"),
 	popup: $.t("z:assassinations.desc.noEvidence2") +$.t("z:feats.desc.tracking")
+},{
+	coords: [[-80.961,-32.366]],
+	popupTitle: $.t("z:assassinations.label.shocking") +$.t("assassinations.label"),
+	label: $.t("z:assassinations.desc.shocking"),
+	popup: $.t("z:assassinations.desc.shocking2") +$.t("z:feats.desc.tracking")
 }],
 
 
@@ -168,9 +173,37 @@ assassinations: [{
 		label: $.t("z:challenges.desc.momento") +$.t("discovery.label"),
 		popupTitle: $.t("z:challenges.label.momento") +$.t("discovery.label"),
 		popup: $.t("z:challenges.desc.momento2")
+	},{
+		coords: [[-79.588,-155.292]],
+		label: $.t("z:challenges.desc.love") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.love") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.love2")
+	},{
+		coords: [[-79.841,-155.709]],
+		label: $.t("z:challenges.desc.candle") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.candle") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.candle2")
+	},{
+		coords: [[-80.516,-157.006]],
+		label: $.t("z:challenges.desc.anybodythere") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.anybodythere") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.anybodythere2")
+	},{
+		coords: [[-59.834,-170.728]],
+		label: $.t("z:challenges.desc.peculiar") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.peculiar") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.peculiar2")
+	},{
+		coords: [[-66.887,-43.879]],
+		label: $.t("z:challenges.desc.goodson") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.goodson") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.goodson2")
+	},{
+		coords: [[-79.192,-148.920]],
+		label: $.t("z:challenges.desc.kitchenhelp") +$.t("discovery.label"),
+		popupTitle: $.t("z:challenges.label.kitchenhelp") +$.t("discovery.label"),
+		popup: $.t("z:challenges.desc.kitchenhelp2")
 	}],
-
-
 
 
 	achievements : [{
@@ -180,6 +213,7 @@ assassinations: [{
 		popup: $.t("z:achievements.desc.Kraken") + $.t(' <a target="_blank" href="https://www.youtube.com/watch?v=NGLNc3Tq15I">[Video]</a> ')
 	}],
 
+//Only one to keep track of what you need chamelion Challenge?
 	disguises: [{
 		coords: [[-68.923,-17.611]],
 		label: $.t("z:disguises.label.outfit"),
@@ -220,25 +254,42 @@ assassinations: [{
 		label: $.t("z:disguises.label.outfit"),
 		popupTitle: $.t("z:disguises.label.garden") + $.t(" ") + $.t("z:disguises.label.outfit"),
 		popup: $.t("z:disguises.desc.garden") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-79.777,-156.357]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.golf") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.golf") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-79.513,-159.192]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.sec") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.sec") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-79.513,-159.192]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.clerk") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.clerk") + $.t(" ") + $.t("z:disguises.label.needed"),
+	},{
+		coords: [[-79.513,-159.192]],
+		label: $.t("z:disguises.label.outfit"),
+		popupTitle: $.t("z:disguises.label.red") + $.t(" ") + $.t("z:disguises.label.outfit"),
+		popup: $.t("z:disguises.desc.red") + $.t(" ") + $.t("z:disguises.label.needed"),
 	}]
 
 //	Shop Keeper - Pick a shop
 //	Bohemian Man - Top of tower in city Square
 //	Street Performer - By the docks
 //	Private Investigator - Sleeping on a bench in one of the back alleys, can be recognized by the white dot always above his head
-//	Red Plumber - Sewers
 //
 //	Butler - Mansion Entrance
 //	Housekeeping - In Mansion - Uniform in laundry area too
 //	Mansion Staff - In Mansion
-//	Mansion Security - Mansion, and near ICA Hideout there is a uniform hidden in another apartment
 //	Bodyguard - Mansion/Streets
 //	Mansion Chef - Mansion
 //
 //	Lab Security - In/around the lab
 //	Lab Technician - In/around the lab, in the morgue
 //	Hazmat Suit - In Lab Area
-//	Golf Coach - Mansion Property
 //	Waiter - City Square
 //
 });

@@ -58,15 +58,15 @@
       "menkeycard": "Mansion Keycard",
       "ratpos": "Emetic Rat Poision",
       "safekobi":"Safe Combination",
-        "dna":"DNA sample",
-        "toytank":"Toy Tank",
-        "masterkey":"Key (Mansion Masterkey)",
-        "dongle":"Biolap Laptop Dongle",
+      "dna":"DNA sample",
+      "toytank":"Toy Tank",
+      "masterkey":"Key (Mansion Masterkey)",
+      "dongle":"Biolap Laptop Dongle",
       "XXX": "XXX"
 
     },
     "desc": {
-      "letter": "XXX",
+      "letter": "no use (part of the Memento Opportunitie)",
       "golfball": "needed fort the Tee Time Assassination Challenge",
       "menkeycard": "XXX",
       "ratpos": "XXX",
@@ -104,6 +104,12 @@
       "lemon":"Leomon Picking",
       "boat":"Abandon Ship",
       "momento":"Momento",
+      "candle":"By Candlelight",
+      "love":"Love Triangle",
+      "anybodythere":"Anybody There",
+      "peculiar":"A Case Most Pecuiliar",
+      "goodson":"The Good Son",
+      "kitchenhelp":"Kitchen Help",
       "XXX": "XXX"
     },
     "desc": {
@@ -122,6 +128,18 @@
             "lemon2":"Starting Location unlocked at Mastery Level XXX",
             "momento":"XXX",
             "momento2":"XXX",
+            "candle":"XXX",
+            "candle2":"By Candlelight",
+            "love":"XXX",
+            "love2":"both need to be in the close in the bathroom, the Box wont work",
+            "anybodythere":"XXX",
+            "anybodythere2":"XXX",
+            "peculiar":"XXX",
+            "peculiar2":"XXX",
+            "goodson":"XXX",
+            "goodson2":"XXX",
+            "kitchenhelp":"XXX",
+            "kitchenhelp2":"Starting Location unlocked at Mastery Level XXX",
 "boat":"Escape Sapienza in the speedboat",
       "XXX": "XXX"
     }
@@ -148,6 +166,7 @@
             "noEvidence": "No Evidence",
       "plage": "Plague-iarism",
       "errorplane": "Error Plane",
+      "shocking": "Shocking!",
       "XXX": "XXX"
     },
     "desc": {
@@ -167,6 +186,8 @@
       "plage2": "get the amputation knife and the plauge doctor disguises here",
       "errorplane": "Assassinate Silvio Caruso by shooting down his plane with an antique cannon",
       "errorplane2": "XXX",
+      "shocking": "Assassinate Francesca De Santis by electrocuting her",
+      "shocking2": "use the screwdriver with the wires and then turn on the Faucet.",
       "XXX": "XXX"
     }
    },
@@ -182,6 +203,10 @@
       "dr": "Dr. Oscar Lafayette",
       "green":"Green Plumber",
       "garden":"Gardener",
+      "golf":"Golf...",
+      "clerk":"Store Clerk",
+      "sec":"Mansion Security",
+      "red":"Red Plumber",
       "XXX": "XXX"
     },
     "desc": {
@@ -190,6 +215,7 @@
       "doc": "pickup",
       "waiter":"no pickup",
       "dr":"no pickup",
+      "golf":"no pickup",
       "garden":"pickup",
       "green":"no pickup",
       "kitchen":"pickup",
