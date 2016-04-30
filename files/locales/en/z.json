@@ -1,0 +1,225 @@
+{
+   "weapons":{
+    "label": {
+      "bartoli12G": "Shotgun (Bartoli 12G)",
+      "bartoli75R": "Pistol (Bartoli 75R)",
+      "battleaxe": "Battleaxe",
+      "brick": "Brick",
+      "bust": "Bust",
+      "cleaver": "Cleaver",
+      "crowbar": "Crowbar",
+      "fireAxe": "Fire Axe",
+      "fireExtinguisher": "Fire Extinguisher",
+      "firePoker": "Fire Poker",
+      "gulfClub": "Golf Club",
+      "hammer": "Hammer",
+      "hatchet": "Hatchet",
+      "kitchenKnife": "Kitchen Knife",
+      "leadPipe": "Lead Pipe",
+      "letterOpener": "Letter Opener",
+      "policeBaton": "Police Baton",
+      "scissors": "Scissors",
+      "screwdriver": "Screwdriver",
+      "sword": "Sword",
+      "circum": "Cicumcision Knife",
+      "folding":"Folding Knife",
+      "remoteex":"Remote Explosive",
+      "wrench": "Wrench"
+    },
+    "desc": {
+      "bartoli12G": "Not-Concealable, Lethal Ranged",
+      "bartoli75R": "Concealable, Lethal Ranged",
+      "battleaxe": "Not-Concealable, Lethal Melee, Throwable",
+      "brick": "Concealable, Non-Lethal Melee, Throwable (Breaks)",
+      "bust": "Concealable, Non-Lethal Melee, Throwable (Breaks)",
+      "cleaver": "Concealable, Lethal Melee, Throwable",
+      "crowbar": "Concealable, Non-Lethal Melee, Throwable, Used with various Interactables",
+      "fireAxe": "Not-Concealable, Lethal Melee, Throwable",
+      "fireExtinguisher": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "firePoker": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "gulfClub": "Not-Concealable, Non-Lethal Melee, Throwable",
+      "hammer": "Concealable, Non-Lethal Melee, Throwable",
+      "hatchet": "Not-Concealable, Lethal Melee, Throwable",
+      "ConcealableLethalMeleeThrowable": "Concealable, Lethal Melee, Throwable",
+      "leadPipe": "Concealable, Non-Lethal Melee, Throwable",
+      "letterOpener": "Concealable, Lethal Melee, Throwable",
+      "policeBaton": "Concealable, Non-Lethal Melee, Throwable",
+      "scissors": "Concealable, Lethal Melee, Throwable",
+      "screwdriver": "Concealable, Lethal Melee, Throwable, Used with various Interactables",
+      "sword": "Not-Concealable, Lethal Melee, Throwable",
+      "remoteex":"XXX",
+      "wrench": "Concealable, Non-Lethal Melee, Throwable, Used with various Interactables"
+    }
+   },
+   "item":{
+    "label": {
+      "letter": "Romantic Note",
+      "golfball": "Explosive Golf Ball",
+      "menkeycard": "Mansion Keycard",
+      "ratpos": "Emetic Rat Poision",
+      "safekobi":"Safe Combination",
+      "dna":"DNA sample",
+      "toytank":"Toy Tank",
+      "masterkey":"Key (Mansion Masterkey)",
+      "dongle":"Biolap Laptop Dongle",
+      "XXX": "XXX"
+
+    },
+    "desc": {
+      "letter": "no use (part of the Memento Opportunitie)",
+      "golfball": "needed fort the Tee Time Assassination Challenge",
+      "menkeycard": "XXX",
+      "ratpos": "XXX",
+      "safekobi":"needed for the Safe in Level 7 (and the Crack me Up Challenge)",
+      "dna":"XXX",
+      "masterkey":"XXX",
+      "dongle":"can be picked up from the Female Sienctist. Use it on the Laptop to kill the Virus remotly",
+      "toytank":"XXX",
+      "XXX": "XXX"
+    }
+  },
+   "feats":{
+    "label": {
+      "fly": "Fly, Silvio!",
+      "XXX": "XXX",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "fly": "Trigger Silvio Carusos evacuation",
+      "fly2": "Trigger a evacuation by shooting near/at him or use the firealarm. If he is inside the Cave/Lab destroy the Virus remotly to get this Feats unlocked",
+      "XXX": "XXX",
+      "XXX": "XXX",
+      "tracking": " (just here for progresstracking)"
+    }
+   },
+   "challenges":{
+    "label": {
+      "delivery": "Special Delivery",
+      "forehire": "Start in the ICA Safe House",
+      "safehouse": "Find the ICA Safe House in Sapienza",
+      "memory": "Disguise yourself as a plague doctor",
+      "dr": "Therapist 47",
+      "crack":"You Crack me Up",
+      "blend":"Blending In",
+      "lemon":"Leomon Picking",
+      "boat":"Abandon Ship",
+      "momento":"Momento",
+      "candle":"By Candlelight",
+      "love":"Love Triangle",
+      "anybodythere":"Anybody There",
+      "peculiar":"A Case Most Pecuiliar",
+      "goodson":"The Good Son",
+      "kitchenhelp":"Kitchen Help",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "delivery": "Disguise yourself as a delivery man",
+      "delivery2": "XXX",
+      "forehire": "Unlocked with Mastery Level 2",
+      "safehouse": "XXX",
+      "memory": "XXX",
+        "dr": "Disguise yourself as Dr. Oscar Lafayette",
+        "dr2": "follow the Catharsis Opputrunity",
+          "crack":"Open Silvio Carusos Safe, Find the DNA Sample",
+            "crack2":"get the Safe Combination from Level 6 (use the Searchoption in the right sidebar) and use it with the safe",
+            "blend":"Start in the mansion garden",
+            "blend2":"Starting Location unlocked at Mastery Level XXX",
+            "lemon":"Start in the leom garden",
+            "lemon2":"Starting Location unlocked at Mastery Level XXX",
+            "momento":"XXX",
+            "momento2":"XXX",
+            "candle":"XXX",
+            "candle2":"By Candlelight",
+            "love":"XXX",
+            "love2":"both need to be in the close in the bathroom, the Box wont work",
+            "anybodythere":"XXX",
+            "anybodythere2":"XXX",
+            "peculiar":"XXX",
+            "peculiar2":"XXX",
+            "goodson":"XXX",
+            "goodson2":"XXX",
+            "kitchenhelp":"XXX",
+            "kitchenhelp2":"Starting Location unlocked at Mastery Level XXX",
+"boat":"Escape Sapienza in the speedboat",
+      "XXX": "XXX"
+    }
+   },
+   "achievements":{
+      "label":{
+         "Kraken":"Let No Joyful Voice be Heard (Achievement)",
+         "Kraken2":"Awakened the Kraken! (Secret)",
+         "XXX":"XXX"
+      },
+      "desc":{
+         "Kraken":"Take the Jaeger-7 Sniper (Paris Mastery Level 5 Unlock) and stash in it the ICA Safehouse (you can also start from there). Sneak near the Shore and shoot the Bells on the Ship the following Order to unlock the Achievement",
+         "XXX":"XXX"
+      }
+   },
+   "assassinations":{
+    "label": {
+      "XXX": "XXX",
+      "teetime": "Tee Time",
+      "silent": "Silent Assassin",
+      "silentsuit": "Silent Assassin, Suit Only",
+        "suitOnly": "Suit Only",
+          "sniper": "Sniper Assassin",
+            "noEvidence": "No Evidence",
+      "plage": "Plague-iarism",
+      "errorplane": "Error Plane",
+      "shocking": "Shocking!",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "XXX": "XXX",
+      "silent": "XXX",
+      "silent2": "XXX",
+      "silentsuit": "XXX",
+      "silentsuit2": "XXX",
+      "suitOnly": "XXX",
+      "suitOnly2": "XXX",
+      "sniper": "XXX",
+      "sniper2": "XXX",
+      "noEvidence": "XXX",
+      "noEvidence2": "XXX",
+      "teetime": "get the Explosive Golf Ball from the ICA Safehouse (swap it with the Golf Teacher Disguise)",
+      "plage": "Assassinate Silvio Caruso with an amputation knife withe disguised as a plauge doctor",
+      "plage2": "get the amputation knife and the plauge doctor disguises here",
+      "errorplane": "Assassinate Silvio Caruso by shooting down his plane with an antique cannon",
+      "errorplane2": "XXX",
+      "shocking": "Assassinate Francesca De Santis by electrocuting her",
+      "shocking2": "use the screwdriver with the wires and then turn on the Faucet.",
+      "XXX": "XXX"
+    }
+   },
+   "disguises":{
+    "label": {
+      "cyclist": "Cyclist",
+      "Priest": "Priest",
+      "waiter":"Waiter",
+      "doc": "Plague Doctor",
+      "outfit": "Outfit",
+      "needed": "(needed for the xxx feast)",
+      "kitchen":"Kitchen Assistant",
+      "dr": "Dr. Oscar Lafayette",
+      "green":"Green Plumber",
+      "garden":"Gardener",
+      "golf":"Golf...",
+      "clerk":"Store Clerk",
+      "sec":"Mansion Security",
+      "red":"Red Plumber",
+      "XXX": "XXX"
+    },
+    "desc": {
+      "cyclist": "no pickup",
+      "Priest": "no pickup",
+      "doc": "pickup",
+      "waiter":"no pickup",
+      "dr":"no pickup",
+      "golf":"no pickup",
+      "garden":"pickup",
+      "green":"no pickup",
+      "kitchen":"pickup",
+      "XXX": "XXX"
+    }
+   }
+}

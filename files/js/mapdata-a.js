@@ -12,7 +12,7 @@ $(document).on("loadMapdata", function () {
 	    label: $.t("a:weapons.label.battleaxe"),
 	    popup: $.t("a:weapons.desc.battleaxe")
 	},{
-	    coords: [[-63.714, -60.688], [-30.902, -54.053], [-81.518, -104.941], [-81.275, -90.923], [-77.206, -150.381], [-65.713, -81.079], [37.962, -93.428]],
+	    coords: [[-63.714, -60.688], [-30.902, -54.053], [-81.518, -104.941], [-81.275, -90.923], [-77.206, -150.381], [-65.713, -81.079]],
 		label: $.t("a:weapons.label.crowbar"),
 		popup: $.t("a:weapons.desc.crowbar")
 	},{
@@ -20,35 +20,35 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.policeBaton"),
 		popup: $.t("a:weapons.desc.policeBaton")
 	},{
-	    coords: [[9.817, -110.017]],
+		coords: [[8.798,-109.863]],
 		label: $.t("a:weapons.label.gulfClub"),
 		popup: $.t("a:weapons.desc.gulfClub")
 	},{
-	    coords: [[-64.896, -69.543], [-64.896, -69.043], [-63.234, -102.538], [-63.234, -102.688]],
+	    coords: [[-64.896, -69.543], [-64.896, -69.043], [-63.234, -102.634], [-63.234, -102.688]],
 		label: $.t("a:weapons.label.sword"),
 		popup: $.t("a:weapons.desc.sword")
 	},{
-	    coords: [[-17.120, -94.219], [4.500, -93.999], [-16.741, -94.021]],
+		coords: [[-17.120,-94.219]],
 		label: $.t("a:weapons.label.firePoker"),
 		popup: $.t("a:weapons.desc.firePoker")
 	},{
-	    coords: [[-33.138, -56.909], [-82.743, -86.045], [-82.875, -123.047], [-74.044, -71.060], [-70.081, -92.505], [-69.411, -124.937], [-70.671, -108.105], [-63.685, -152.227], [-62.217, -81.892], [31.203, -92.813], [49.753, -95.537]],
+	    coords: [[-17.120, -94.219], [-33.138, -56.909], [-82.743, -86.045], [-82.875, -123.047], [-74.044, -71.060], [-70.081, -92.505], [-69.411, -124.937], [-70.671, -108.105], [-63.685, -152.227], [-62.217, -81.892]],
 		label: $.t("a:weapons.label.wrench"),
 		popup: $.t("a:weapons.desc.wrench")
 	},{
-	    coords: [[-31.429, -111.270], [-67.136, -63.545], [-69.885, -80.859], [-68.657, -92.681], [-73.503, -96.724], [-67.136, -148.887], [-69.427, -123.882], [-61.270, -115.027], [-56.292, -110.764], [-53.410, -63.325], [-11.545, -76.509], [-14.307, -85.935], [-4.763, -92.351], [30.770, -122.981], [31.391, -98.613], [31.504, -65.083], [46.649, -101.602]],
+	    coords: [[-31.429, -111.270], [-67.136, -63.545], [-69.885, -80.859], [-68.657, -92.681], [-73.503, -96.724], [-67.136, -148.887], [-69.427, -123.882], [-61.270, -115.027], [-56.292, -110.764], [-53.410, -63.325]],
 		label: $.t("a:weapons.label.screwdriver"),
 		popup: $.t("a:weapons.desc.screwdriver")
 	},{
-	    coords: [[-44.528, -138.779], [-73.886, -99.536], [-61.980, -111.995], [-18.334, -76.509], [-16.657, -59.963], [1.494, -128.738], [27.137, -88.066], [44.934, -90.879]],
+	    coords: [[-44.528, -138.779], [-73.886, -99.536], [-61.980, -111.995]],
 		label: $.t("a:weapons.label.hammer"),
 		popup: $.t("a:weapons.desc.hammer")
 	},{
-	    coords: [[-82.443, -85.078], [-83.293, -108.193], [-83.048, -117.993], [-79.695, -112.544], [-81.979, -101.470], [-43.676, -147.788], [-64.245, -121.179], [-60.748, -118.323], [-52.935, -112.632], [-1.121, -89.099], [10.531, -89.099], [-17.539, -85.386], [-14.030, -94.592], [-9.904, -90.264], [2.877, -119.158], [-20.097, -118.740], [-14.307, -119.158], [28.960, -76.509]],
+	    coords: [[-82.443, -85.078], [-83.293, -108.193], [-83.048, -117.993], [-79.695, -112.544], [-81.979, -101.470], [-43.676, -147.788], [-64.245, -121.179], [-60.748, -118.323], [-52.935, -112.632]],
 		label: $.t("a:weapons.label.fireExtinguisher"),
 		popup: $.t("a:weapons.desc.fireExtinguisher")
 	},{
-	    coords: [[-80.364, -85.869], [-84.315, -112.720], [-69.006, -125.464], [-82.160, -89.429], [-62.104, -92.461], [-54.406, -111.687], [-19.849, -89.165], [-13.283, -114.324], [1.801, -92.834], [45.368, -72.686]],
+	    coords: [[-80.364, -85.869], [-84.315, -112.720], [-69.006, -125.464], [-82.160, -89.429], [-62.104, -92.461], [-54.406, -111.687]],
 		label: $.t("a:weapons.label.fireAxe"),
 		popup: $.t("a:weapons.desc.fireAxe")
 	},{
@@ -56,7 +56,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.brick"),
 		popup: $.t("a:weapons.desc.brick")
 	},{
-	    coords: [[-82.704, -95.933], [-83.677, -121.729], [-70.215, -115.532], [-52.429, -115.598], [-51.481, -116.104], [-51.289, -114.434], [-48.531, -109.995], [-16.762, -123.003]],
+	    coords: [[-82.704, -95.933], [-83.677, -121.729], [-70.215, -115.532], [-52.429, -115.598], [-51.481, -116.104], [-51.289, -114.434], [-48.531, -109.995]],
 		label: $.t("a:weapons.label.kitchenKnife"),
 		popup: $.t("a:weapons.desc.kitchenKnife")
 	},{
@@ -64,15 +64,11 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:weapons.label.bartoli12G"),
 		popup: $.t("a:weapons.desc.bartoli12G")
 	},{
-	    coords: [[-83.905, -93.911], [3.996, -63.984], [3.908, -112.236], [27.098, -104.546]],
+	    coords: [[-83.905, -93.911], [3.996, -63.984]],
 		label: $.t("a:weapons.label.bartoli75R"),
 		popup: $.t("a:weapons.desc.bartoli75R")
-	}, {
-	    coords: [[31.222, -107.996], [31.015, -107.996], [27.994, -98.789]],
-	    label: $.t("a:weapons.label.fusilG2"),
-	    popup: $.t("a:weapons.desc.fusilG2")
-	}, {
-	    coords: [[-83.725, -89.648], [-62.431, -100.833], [-64.671, -99.844], [-64.830, -106.172], [-54.648, -81.387], [4.390, -63.501], [24.787, -123.882], [41.013, -115.159]],
+	},{
+	    coords: [[-83.725, -89.648], [-62.431, -100.833], [-64.671, -99.844], [-64.830, -106.172], [-54.648, -81.387]],
 		label: $.t("a:weapons.label.scissors"),
 		popup: $.t("a:weapons.desc.scissors")
 	},{
@@ -88,18 +84,14 @@ $(document).on("loadMapdata", function () {
 	    label: $.t("a:weapons.label.leadPipe"),
 	    popup: $.t("a:weapons.desc.leadPipe")
 	},{
-	    coords: [[-15.454, -79.926], [-6.992, -125.442], [31.878, -97.515], [46.770, -95.054]],
-	    label: $.t("a:weapons.label.bust"),
-	    popup: $.t("a:weapons.desc.bust")
-	},{
-	    coords: [[5.069, -98.262], [2.680, -78.398], [-16.004, -64.709], [-22.553, -91.560]],
+	    coords: [[5.069, -98.262]],
 	    label: $.t("a:weapons.label.letterOpener"),
         popup: $.t("a:weapons.desc.letterOpener")
 	}],
 
 
 	item: [{
-	    coords: [[-51.536, -65.347], [-17.937, -66.423], [37.892, -91.714], [-64.671, -114.368]],
+	    coords: [[-51.536, -65.347], [-18.146, -65.830], [38.617, -91.582], [-64.671, -114.368]],
 	    label: $.t("coins.label"),
 	    popup: $.t("coins.desc")
 	},{
@@ -111,11 +103,11 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:item.label.vipList"),
 		popup: $.t("a:item.desc.vipList")
 	},{
-	    coords: [[-70.444, -126.365], [-48.517, -113.467], [-48.517, -113.707], [-82.121, -107.490], [-70.743, -100.635], [24.087, -101.206], [50.764, -89.736]],
+	    coords: [[-70.444, -126.365], [-48.517, -113.467], [-48.517, -113.707], [-82.121, -107.490], [-70.743, -100.635]],
 	    label: $.t("a:item.label.ratPoison"),
 	    popup: $.t("a:item.desc.ratPoison")
 	},{
-	    coords: [[29.037, -101.118]],
+		coords: [[28.710,-102.458]],
 		label: $.t("a:item.label.dongle"),
 		popup: $.t("a:item.desc.dongle")
 	},{
@@ -139,25 +131,21 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:item.label.stageSchedule"),
 		popup: $.t("a:item.desc.stageSchedule")
 	},{
-	    coords: [[-5.113, -111.116]],
+		coords: [[-5.835,-111.094]],
 		label: $.t("a:item.label.fireworksRemote"),
 		popup: $.t("a:item.desc.fireworksRemote")
 	},{
-	    coords: [[36.598, -113.621]],
-		label: $.t("a:item.label.lethalPoison"),
-		popup: $.t("a:item.desc.lethalPoison")
+		coords: [[34.796,-112.807]],
+		label: $.t("a:item.label.killPoison"),
+		popup: $.t("a:item.desc.killPoison")
 	},{
-	    coords: [[27.528, -106.084]],
+		coords: [[30.902,-105.249]],
 		label: $.t("a:item.label.remoteExplosive"),
 		popup: $.t("a:item.desc.remoteExplosive")
 	},{
 		coords: [[-83.844,-89.692]],
 		label: $.t("a:item.label.evacPlan"),
 		popup: $.t("a:item.desc.evacPlan")
-	},{
-	    coords: [[5.288, -79.980]],
-	    label: $.t("a:item.label.radio"),
-	    popup: $.t("a:item.desc.radio")
 	},{
 		coords: [[-37.020,-130.957]],
 		label: $.t("a:item.label.fireworksSchedule"),
@@ -226,7 +214,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:assassinations.label.drowned") +$.t("assassinations.label"),
 		popup: $.t("a:assassinations.desc.drowned")
 	},{
-	    coords: [[-68.229, -152.051]],
+		coords: [[-16.130,-65.500]],
 		label: $.t("a:assassinations.label.svedanja") +$.t("assassinations.label"),
 		popup: $.t("a:assassinations.desc.svedanja")
 	},{
@@ -243,8 +231,8 @@ $(document).on("loadMapdata", function () {
 		popup: $.t("a:assassinations.desc.bargained")
 	},{
 		coords: [[36.598,-111.829]],
-		label: $.t("a:assassinations.label.poisonDalia") +$.t("assassinations.label"),
-		popup: $.t("a:assassinations.desc.poisonDalia")
+		label: $.t("a:assassinations.label.posionDalia") +$.t("assassinations.label"),
+		popup: $.t("a:assassinations.desc.posionDalia")
 	},{
 		coords: [[39.741,-99.976]],
 		label: $.t("a:assassinations.label.showstopper") +$.t("assassinations.label"),
@@ -282,7 +270,7 @@ $(document).on("loadMapdata", function () {
 		label: $.t("a:assassinations.label.suitOnly") +$.t("assassinations.label"),
 		popup: $.t("a:assassinations.desc.suitOnly") +$.t("a:feats.desc.tracking")
 	},{
-	    coords: [[-83.495, -91.494]],
+		coords: [[-75.952,-108.346]],
 		label: $.t("a:assassinations.label.noEvidence") +$.t("assassinations.label"),
 		popup: $.t("a:assassinations.desc.noEvidence")
 	},{
@@ -490,7 +478,7 @@ $(document).on("loadMapdata", function () {
 	}],
 
 	disguises: [{
-	    coords: [[45.997, -65.237]],
+		coords: [[46.073,-65.742]],
 		label: $.t("a:disguises.label.vampire"),
 		popup: $.t("a:disguises.desc.vampire")
 	},{

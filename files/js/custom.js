@@ -285,19 +285,19 @@ $(document).on("loadCustom", function() {
 		}
 	});
 
-	$(document).on('click', 'li#hide-monsters', function(e) {
-		localStorage['hide-monsters'] = true;
-		$('#info').addClass('hideMonsters');
-		$('#hide-monsters').hide();
-		$('#show-monsters').show();
-	});
+	//$(document).on('click', 'li#hide-monsters', function(e) {
+	//		localStorage['hide-monsters'] = true;
+	//		$('#info').addClass('hideMonsters');
+	//		$('#hide-monsters').hide();
+	//		$('#show-monsters').show();
+	//});
 
-	$(document).on('click', 'li#show-monsters', function(e) {
-		localStorage.removeItem('hide-monsters');
-		$('#info').removeClass('hideMonsters');
-		$('#hide-monsters').show();
-		$('#show-monsters').hide();
-	});
+	//$(document).on('click', 'li#show-monsters', function(e) {
+	//	localStorage.removeItem('hide-monsters');
+	//	$('#info').removeClass('hideMonsters');
+	//	$('#hide-monsters').show();
+	//	$('#show-monsters').hide();
+	//});
 
 	$('ul.key:not(.controls)').on('click', 'li:not(.none)', function(e) {
 		var marker   = $(this).find('i').attr('class');
@@ -388,26 +388,6 @@ $(document).on("loadCustom", function() {
 		localStorage['hideWarn'] = true;
 		$(this).remove();
 	});
-
-	//$('div#sfw').on('click', 'a.gotosfw', function(e) {
-	//	e.preventDefault();
-	//	if (confirm($.t('misc.nsfwConfirm'))) {
-	//		localStorage['sfw'] = true;
-	//		$('span#brothel-text').text($.t('sidebar.loveInterest'));
-	//		$('div#sfw > a.gotosfw').hide();
-	//		$('div#sfw > a.original').show();
-	//	}
-	//});
-
-//	$('div#sfw').on('click', 'a.original', function(e) {
-//		e.preventDefault();
-//		if ($.t('misc.nsfwUndo')) {
-//			localStorage.removeItem('sfw');
-//			$('span#brothel-text').text($.t('sidebar.brothel'));
-//			$('div#sfw > a.original').hide();
-//			$('div#sfw > a.gotosfw').show();
-//		}
-//	});
 
 	var popupClick = function(e) {
 		if ($(e.target).is('#popup-content') || $(e.toElement.offsetParent).is('#popup-content') || $(e.toElement.offsetParent).is('#popup-wrap')) {
@@ -560,13 +540,13 @@ $(document).on("loadCustom", function() {
 		 });
 	 };
 
-	 var backupButton = L.easyButton('fa-floppy-o', function(btn, map) {
-		 backupData();
-	 }, 'Backup Data');
-	 var restoreButton = L.easyButton('fa-upload', function(btn, map) {
-		 showRestore();
-	 }, 'Restore Data', 'restoreButton');
-	 L.easyBar([backupButton, restoreButton]).addTo(map);
+	 //var backupButton = L.easyButton('fa-floppy-o', function(btn, map) {
+	//	 backupData();
+	 //}, 'Backup Data');
+	 //var restoreButton = L.easyButton('fa-upload', function(btn, map) {
+	//	 showRestore();
+	 //}, 'Restore Data', 'restoreButton');
+	 //L.easyBar([backupButton, restoreButton]).addTo(map);
 
 	window.noteMarkers = {};
 	var noteStatus = false;
